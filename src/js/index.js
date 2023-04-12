@@ -10,7 +10,7 @@ import "../styles/index.css";
 function Counter(props){
     return (<><div className = "bigContainer">
                     <div className = "container1">
-                             <div className = "clock"><img src="https://www.citypng.com/public/uploads/preview/white-clock-icon-symbol-png-11639648062guyflnf40u.png"></img></div>
+                             <div className = "clock"><img src="https://i.pinimg.com/originals/9e/e5/fb/9ee5fbb0c90d66eea8445d13527cb635.jpg"></img></div>
                     </div>
                     <div className = "container2"> 
                             <div className = "sixth">{props.sixthDigit % 10}</div>
@@ -19,7 +19,7 @@ function Counter(props){
                             <div className = "third">{props.thirdDigit % 10}</div>
                             <div className = "second">{props.secondDigit % 10}</div>
                             <div className = "first">{props.firstDigit % 10}</div>
-                    </div>
+                    </div>  
             </div></>
             )
 }
@@ -32,6 +32,8 @@ Counter.propTypes = {
         fifthDigit: PropTypes.number,
         sixthDigit: PropTypes.number
 };
+
+
 
 let start =0;
 setInterval(function(){
